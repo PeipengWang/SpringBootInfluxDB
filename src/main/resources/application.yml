@@ -1,0 +1,15 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
+influxdb:
+  url: http://159.75.251.138:8086/
+  token: RP3Cti5DmGuhU5FB8Ubb5ij57LCXgpxWPA3NLOiqJROerC7FOe0SgdFwmAJPpMQYGMYv3-8D0n0VGEQkfl5ksw==
+  org: telemetry
+  bucket: tp4_tmdata
+
